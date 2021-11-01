@@ -1,0 +1,1055 @@
+PMID- 34499117
+OWN - NLM
+STAT- Publisher
+LR  - 20210914
+IS  - 1367-4811 (Electronic)
+IS  - 1367-4803 (Linking)
+DP  - 2021 Sep 9
+TI  - INTERCAAT: identifying interface residues between macromolecules.
+LID - btab596 [pii]
+LID - 10.1093/bioinformatics/btab596 [doi]
+AB  - SUMMARY: The Interface Contact definition with Adaptable Atom Types (INTERCAAT) was 
+      developed to determine the atomic interactions between molecules that form a known 
+      three dimensional structure. First, INTERCAAT creates a Voronoi tessellation where 
+      each atom acts as a seed. Interactions are defined by atoms that share a hyperplane 
+      and whose distance is less than the sum of each atoms' Van der Waals radii plus the 
+      diameter of a solvent molecule. Interacting atoms are then classified and 
+      interactions are filtered based on compatibility. INTERCAAT implements an adaptive 
+      atom classification method; therefore, it can explore interfaces between a variety 
+      macromolecules. AVAILABILITY: Source code is freely available at 
+      (https://gitlab.com/fiserlab.org/intercaat). SUPPLEMENTARY INFORMATION: 
+      Supplementary data are available at Bioinformatics online.
+CI  - © The Author(s) (2021). Published by Oxford University Press. All rights reserved. 
+      For Permissions, please email: journals.permissions@oup.com.
+FAU - Grudman, Steven
+AU  - Grudman S
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1301 Morris Park Avenue, Room, 453.
+FAU - Fajardo, J Eduardo
+AU  - Fajardo JE
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1301 Morris Park Avenue, Room, 453.
+FAU - Fiser, Andras
+AU  - Fiser A
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1301 Morris Park Avenue, Room, 453.
+LA  - eng
+GR  - R01 AI141816/AI/NIAID NIH HHS/United States
+GR  - R35 GM136357/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+DEP - 20210909
+PL  - England
+TA  - Bioinformatics
+JT  - Bioinformatics (Oxford, England)
+JID - 9808944
+SB  - IM
+EDAT- 2021/09/10 06:00
+MHDA- 2021/09/10 06:00
+CRDT- 2021/09/09 12:23
+PHST- 2021/06/09 00:00 [received]
+PHST- 2021/07/21 00:00 [revised]
+PHST- 2021/09/08 00:00 [accepted]
+PHST- 2021/09/09 12:23 [entrez]
+PHST- 2021/09/10 06:00 [pubmed]
+PHST- 2021/09/10 06:00 [medline]
+AID - 6367763 [pii]
+AID - 10.1093/bioinformatics/btab596 [doi]
+PST - aheadofprint
+SO  - Bioinformatics. 2021 Sep 9:btab596. doi: 10.1093/bioinformatics/btab596.
+
+PMID- 33684100
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210802
+LR  - 20210914
+IS  - 1553-7404 (Electronic)
+IS  - 1553-7390 (Print)
+IS  - 1553-7390 (Linking)
+VI  - 17
+IP  - 3
+DP  - 2021 Mar
+TI  - miRNA-mediated loss of m6A increases nascent translation in glioblastoma.
+PG  - e1009086
+LID - 10.1371/journal.pgen.1009086 [doi]
+LID - e1009086
+AB  - Within the glioblastoma cellular niche, glioma stem cells (GSCs) can give rise to 
+      differentiated glioma cells (DGCs) and, when necessary, DGCs can reciprocally give 
+      rise to GSCs to maintain the cellular equilibrium necessary for optimal tumor 
+      growth. Here, using ribosome profiling, transcriptome and m6A RNA sequencing, we 
+      show that GSCs from patients with different subtypes of glioblastoma share a set of 
+      transcripts, which exhibit a pattern of m6A loss and increased protein translation 
+      during differentiation. The target sequences of a group of miRNAs overlap the 
+      canonical RRACH m6A motifs of these transcripts, many of which confer a survival 
+      advantage in glioblastoma. Ectopic expression of the RRACH-binding miR-145 induces 
+      loss of m6A, formation of FTO/AGO1/ILF3/miR-145 complexes on a clinically relevant 
+      tumor suppressor gene (CLIP3) and significant increase in its nascent translation. 
+      Inhibition of miR-145 maintains RRACH m6A levels of CLIP3 and inhibits its nascent 
+      translation. This study highlights a critical role of miRNAs in assembling complexes 
+      for m6A demethylation and induction of protein translation during GSC state 
+      transition.
+FAU - Zepecki, John P
+AU  - Zepecki JP
+AUID- ORCID: 0000-0003-4127-4668
+AD  - Laboratory of Cancer Epigenetics and Plasticity, Brown University, Rhode Island 
+      Hospital, Providence Rhode Island, United States of America.
+FAU - Karambizi, David
+AU  - Karambizi D
+AD  - Laboratory of Cancer Epigenetics and Plasticity, Brown University, Rhode Island 
+      Hospital, Providence Rhode Island, United States of America.
+FAU - Fajardo, J Eduardo
+AU  - Fajardo JE
+AUID- ORCID: 0000-0001-9701-8546
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, Bronx, New York, United States of America.
+FAU - Snyder, Kristin M
+AU  - Snyder KM
+AUID- ORCID: 0000-0002-6598-1837
+AD  - University of Minnesota, College of Veterinary Medicine, St. Paul, Minnesota, United 
+      States of America.
+FAU - Guetta-Terrier, Charlotte
+AU  - Guetta-Terrier C
+AUID- ORCID: 0000-0002-3265-6982
+AD  - Laboratory of Cancer Epigenetics and Plasticity, Brown University, Rhode Island 
+      Hospital, Providence Rhode Island, United States of America.
+FAU - Tang, Oliver Y
+AU  - Tang OY
+AUID- ORCID: 0000-0002-8604-2708
+AD  - Laboratory of Cancer Epigenetics and Plasticity, Brown University, Rhode Island 
+      Hospital, Providence Rhode Island, United States of America.
+FAU - Chen, Jia-Shu
+AU  - Chen JS
+AD  - Laboratory of Cancer Epigenetics and Plasticity, Brown University, Rhode Island 
+      Hospital, Providence Rhode Island, United States of America.
+FAU - Sarkar, Atom
+AU  - Sarkar A
+AUID- ORCID: 0000-0002-8164-7150
+AD  - Department of Neurosurgery, Drexel Neuroscience Institute, Philadelphia 
+      Pennsylvania, United States of America.
+FAU - Fiser, Andras
+AU  - Fiser A
+AUID- ORCID: 0000-0003-0085-5335
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, Bronx, New York, United States of America.
+FAU - Toms, Steven A
+AU  - Toms SA
+AUID- ORCID: 0000-0001-8732-0522
+AD  - Department of Neurosurgery, Brown University, Providence Rhode Island, United States 
+      of America.
+FAU - Tapinos, Nikos
+AU  - Tapinos N
+AUID- ORCID: 0000-0002-3798-5363
+AD  - Laboratory of Cancer Epigenetics and Plasticity, Brown University, Rhode Island 
+      Hospital, Providence Rhode Island, United States of America.
+AD  - Department of Neurosurgery, Brown University, Providence Rhode Island, United States 
+      of America.
+AD  - Cancer Biology Program, Brown University, Lifespan Cancer Institute, Providence RI, 
+      USA.
+AD  - Carney Institute for Brain Science, Brown University, Providence, RI, USA.
+LA  - eng
+GR  - R01 AI141816/AI/NIAID NIH HHS/United States
+GR  - R35 GM136357/GM/NIGMS NIH HHS/United States
+GR  - R21 CA235415/CA/NCI NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20210308
+TA  - PLoS Genet
+JT  - PLoS genetics
+JID - 101239074
+RN  - 0 (3' Untranslated Regions)
+RN  - 0 (CLIP3 protein, human)
+RN  - 0 (MicroRNAs)
+RN  - 0 (Microtubule-Associated Proteins)
+RN  - 0 (RNA, Messenger)
+RN  - CLE6G00625 (N-methyladenosine)
+RN  - K72T3FS567 (Adenosine)
+SB  - IM
+MH  - 3' Untranslated Regions
+MH  - Adenosine/*analogs & derivatives/metabolism
+MH  - Base Sequence
+MH  - Cell Line, Tumor
+MH  - Gene Expression Profiling
+MH  - Gene Expression Regulation, Neoplastic
+MH  - Glioblastoma/*genetics/metabolism
+MH  - Humans
+MH  - Methylation
+MH  - MicroRNAs/*genetics/*metabolism
+MH  - Microtubule-Associated Proteins/genetics
+MH  - *Protein Biosynthesis
+MH  - RNA Interference
+MH  - RNA, Messenger/genetics
+MH  - Transcriptome
+MH  - Tumor Cells, Cultured
+PMC - PMC7971852
+COIS- The authors have declared that no competing interests exist.
+EDAT- 2021/03/09 06:00
+MHDA- 2021/08/03 06:00
+CRDT- 2021/03/08 17:09
+PHST- 2020/08/25 00:00 [received]
+PHST- 2021/02/15 00:00 [accepted]
+PHST- 2021/03/18 00:00 [revised]
+PHST- 2021/03/09 06:00 [pubmed]
+PHST- 2021/08/03 06:00 [medline]
+PHST- 2021/03/08 17:09 [entrez]
+AID - PGENETICS-D-20-01310 [pii]
+AID - 10.1371/journal.pgen.1009086 [doi]
+PST - epublish
+SO  - PLoS Genet. 2021 Mar 8;17(3):e1009086. doi: 10.1371/journal.pgen.1009086. 
+      eCollection 2021 Mar.
+
+PMID- 33486430
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20211011
+LR  - 20211011
+IS  - 1879-033X (Electronic)
+IS  - 0959-440X (Print)
+IS  - 0959-440X (Linking)
+VI  - 67
+DP  - 2021 Apr
+TI  - Residue-based pharmacophore approaches to study protein-protein interactions.
+PG  - 205-211
+LID - S0959-440X(21)00009-9 [pii]
+LID - 10.1016/j.sbi.2020.12.016 [doi]
+AB  - This review focuses on pharmacophore approaches in researching protein interfaces 
+      that bind protein ligands. Pharmacophore descriptions of binding interfaces that 
+      employ molecular dynamics simulation can account for effects of solvation and 
+      conformational flexibility. In addition, these calculations provide an approximation 
+      to entropic considerations and as such, a better approximation of the free energy of 
+      binding. Residue-based pharmacophore approaches can facilitate a variety of drug 
+      discovery tasks such as the identification of receptor-ligand partners, identifying 
+      their binding poses, designing protein interfaces for selectivity, or defining a 
+      reduced mutational combinatorial exploration for subsequent experimental engineering 
+      techniques by orders of magnitudes.
+CI  - Copyright © 2021 Elsevier Ltd. All rights reserved.
+FAU - Shrestha, Rojan
+AU  - Shrestha R
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA; Department of Biochemistry, 
+      Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA.
+FAU - Fajardo, Jorge Eduardo
+AU  - Fajardo JE
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA; Department of Biochemistry, 
+      Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA.
+FAU - Fiser, Andras
+AU  - Fiser A
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA; Department of Biochemistry, 
+      Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA. 
+      Electronic address: andras.fiser@einsteinmed.org.
+LA  - eng
+GR  - R01 AI141816/AI/NIAID NIH HHS/United States
+GR  - R01 GM118709/GM/NIGMS NIH HHS/United States
+GR  - R35 GM136357/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Review
+DEP - 20210122
+TA  - Curr Opin Struct Biol
+JT  - Current opinion in structural biology
+JID - 9107784
+RN  - 0 (Ligands)
+SB  - IM
+MH  - Binding Sites
+MH  - *Drug Discovery
+MH  - Ligands
+MH  - Molecular Conformation
+MH  - *Molecular Docking Simulation
+MH  - *Molecular Dynamics Simulation
+MH  - *Protein Binding
+MH  - Protein Interaction Maps
+PMC - PMC8439153
+MID - NIHMS1663525
+COIS- Conflict of Interest No conflict of interest exists. Conflict of interest statement 
+      Nothing declared.
+EDAT- 2021/01/25 06:00
+MHDA- 2021/10/12 06:00
+PMCR- 2022/04/01
+CRDT- 2021/01/24 20:45
+PHST- 2020/10/29 00:00 [received]
+PHST- 2020/12/04 00:00 [revised]
+PHST- 2020/12/28 00:00 [accepted]
+PHST- 2022/04/01 00:00 [pmc-release]
+PHST- 2021/01/25 06:00 [pubmed]
+PHST- 2021/10/12 06:00 [medline]
+PHST- 2021/01/24 20:45 [entrez]
+AID - S0959-440X(21)00009-9 [pii]
+AID - 10.1016/j.sbi.2020.12.016 [doi]
+PST - ppublish
+SO  - Curr Opin Struct Biol. 2021 Apr;67:205-211. doi: 10.1016/j.sbi.2020.12.016. Epub 
+      2021 Jan 22.
+
+PMID- 33483991
+OWN - NLM
+STAT- In-Process
+LR  - 20210924
+IS  - 1097-0134 (Electronic)
+IS  - 0887-3585 (Linking)
+VI  - 89
+IP  - 6
+DP  - 2021 Jun
+TI  - Estimating the accuracy of pharmacophore-based detection of cognate receptor-ligand 
+      pairs in the immunoglobulin superfamily.
+PG  - 632-638
+LID - 10.1002/prot.26046 [doi]
+AB  - Secreted and membrane-bound members of the immunoglobulin superfamily (IgSF) 
+      encompass a large, diverse array of proteins that play central roles in immune 
+      response and neural development, and are implicated in diseases ranging from cancer 
+      to rheumatoid arthritis. Despite the potential biomedical benefits of understanding 
+      IgSF:IgSF cognate receptor-ligand interactions, relatively little about them is 
+      known at a molecular level, and experimentally probing all possible receptor-ligand 
+      pairs is prohibitively costly. The Protein Ligand Interface Design (ProtLID) 
+      algorithm is a computational pharmacophore-based approach to identify cognate 
+      receptor-ligand pairs that was recently validated in a pilot study on a small set of 
+      IgSF complexes. Although ProtLID has shown a success rate of 61% at identifying at 
+      least one cognate ligand for a given receptor, it currently lacks any form of 
+      confidence measure that can prioritize individual receptor-ligand predictions to 
+      pursue experimentally. In this study, we expanded the application of ProtLID to 
+      cover all IgSF complexes with available structural data. In addition, we introduced 
+      an approach to estimate the confidence of predictions made by ProtLID based on a 
+      statistical analysis of how the ProtLID-constructed pharmacophore matches the 
+      structures of candidate ligands. The confidence score combines the physicochemical 
+      compatibility, spatial consistency, and mathematical skewness of the distribution of 
+      matches throughout a set of candidate ligands. Our results suggest that a subset of 
+      cases meeting stringent confidence criteria will always have at least one successful 
+      receptor-ligand prediction.
+CI  - © 2021 Wiley Periodicals LLC.
+FAU - Gil, Nelson
+AU  - Gil N
+AD  - Department of Systems and Computational Biology, Department of Biochemistry, Albert 
+      Einstein College of Medicine, Bronx, New York, USA.
+FAU - Shrestha, Rojan
+AU  - Shrestha R
+AD  - Department of Systems and Computational Biology, Department of Biochemistry, Albert 
+      Einstein College of Medicine, Bronx, New York, USA.
+FAU - Fiser, Andras
+AU  - Fiser A
+AUID- ORCID: 0000-0003-0085-5335
+AD  - Department of Systems and Computational Biology, Department of Biochemistry, Albert 
+      Einstein College of Medicine, Bronx, New York, USA.
+LA  - eng
+GR  - F31 GM116570/GM/NIGMS NIH HHS/United States
+GR  - T32 GM007288/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+DEP - 20210128
+PL  - United States
+TA  - Proteins
+JT  - Proteins
+JID - 8700181
+SB  - IM
+OTO - NOTNLM
+OT  - *binding partner identification
+OT  - *immunoglobulin superfamily
+OT  - *pharmacophores
+EDAT- 2021/01/24 06:00
+MHDA- 2021/01/24 06:00
+CRDT- 2021/01/23 05:42
+PHST- 2020/10/26 00:00 [revised]
+PHST- 2020/02/06 00:00 [received]
+PHST- 2020/12/27 00:00 [accepted]
+PHST- 2021/01/24 06:00 [pubmed]
+PHST- 2021/01/24 06:00 [medline]
+PHST- 2021/01/23 05:42 [entrez]
+AID - 10.1002/prot.26046 [doi]
+PST - ppublish
+SO  - Proteins. 2021 Jun;89(6):632-638. doi: 10.1002/prot.26046. Epub 2021 Jan 28.
+
+PMID- 33027689
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20201102
+LR  - 20210914
+IS  - 1878-4186 (Electronic)
+IS  - 0969-2126 (Linking)
+VI  - 28
+IP  - 10
+DP  - 2020 Oct 6
+TI  - A Designer Quest for the Achilles' Heel of Influenza.
+PG  - 1083-1084
+LID - S0969-2126(20)30329-4 [pii]
+LID - 10.1016/j.str.2020.09.004 [doi]
+AB  - Monoclonal antibodies are attractive but, in certain applications, limited 
+      therapeutic modalities due to their large size and high specificity. In this issue 
+      of Structure, Sevy at al. describe a computationally designed cyclic peptide 
+      mimicking the CDRH3 loop of the C05 antibody against influenza showing the potential 
+      utility of designer biologics.
+CI  - Copyright © 2020 Elsevier Ltd. All rights reserved.
+FAU - Fajardo, J Eduardo
+AU  - Fajardo JE
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1301 Morris Park Ave, Bronx, NY 10461, USA; Department of Biochemistry, 
+      Albert Einstein College of Medicine, 1301 Morris Park Ave, Bronx, NY 10461, USA.
+FAU - Fiser, Andras
+AU  - Fiser A
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1301 Morris Park Ave, Bronx, NY 10461, USA; Department of Biochemistry, 
+      Albert Einstein College of Medicine, 1301 Morris Park Ave, Bronx, NY 10461, USA. 
+      Electronic address: andras.fiser@einsteinmed.org.
+LA  - eng
+GR  - R01 AI141816/AI/NIAID NIH HHS/United States
+GR  - R35 GM136357/GM/NIGMS NIH HHS/United States
+PT  - Comment
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PL  - United States
+TA  - Structure
+JT  - Structure (London, England : 1993)
+JID - 101087697
+RN  - 0 (Antibodies, Monoclonal)
+RN  - 0 (Peptides, Cyclic)
+SB  - IM
+CON - Structure. 2020 Oct 6;28(10):1114-1123.e4. PMID: 32610044
+MH  - Antibodies, Monoclonal
+MH  - Biophysical Phenomena
+MH  - Humans
+MH  - *Influenza, Human/diagnosis
+MH  - Peptides, Cyclic
+EDAT- 2020/10/08 06:00
+MHDA- 2020/11/03 06:00
+CRDT- 2020/10/07 20:05
+PHST- 2020/10/07 20:05 [entrez]
+PHST- 2020/10/08 06:00 [pubmed]
+PHST- 2020/11/03 06:00 [medline]
+AID - S0969-2126(20)30329-4 [pii]
+AID - 10.1016/j.str.2020.09.004 [doi]
+PST - ppublish
+SO  - Structure. 2020 Oct 6;28(10):1083-1084. doi: 10.1016/j.str.2020.09.004.
+
+PMID- 32893190
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20210309
+LR  - 20210331
+IS  - 1083-351X (Electronic)
+IS  - 0021-9258 (Print)
+IS  - 0021-9258 (Linking)
+VI  - 295
+IP  - 46
+DP  - 2020 Nov 13
+TI  - A proton-coupled folate transporter mutation causing hereditary folate malabsorption 
+      locks the protein in an inward-open conformation.
+PG  - 15650-15661
+LID - S0021-9258(17)50395-6 [pii]
+LID - 10.1074/jbc.RA120.014757 [doi]
+AB  - The proton-coupled folate transporter (PCFT, SLC46A1) is required for folate 
+      intestinal absorption and transport across the choroid plexus. Recent work has 
+      identified a F392V mutation causing hereditary folate malabsorption. However, the 
+      residue properties responsible for this loss of function remains unknown. Using 
+      site-directed mutagenesis, we observed complete loss of function with charged (Lys, 
+      Asp, and Glu) and polar (Thr, Ser, and Gln) Phe-392 substitutions and minimal 
+      function with some neutral substitutions; however, F392M retained full function. 
+      Using the substituted-cysteine accessibility method (with N-biotinyl aminoethyl 
+      methanethiosulfonate labeling), Phe-392 mutations causing loss of function, although 
+      preserving membrane expression and trafficking, also resulted in loss of 
+      accessibility of the substituted cysteine in P314C-PCFT located within the aqueous 
+      translocation pathway. F392V function and accessibility of the P314C cysteine were 
+      restored by insertion of a G305L (suppressor) mutation. A S196L mutation localized 
+      in proximity to Gly-305 by homology modeling was inactive. However, when inserted 
+      into the inactive F392V scaffold, function was restored (mutually compensatory 
+      mutations), as was accessibility of the P314C cysteine residue. Reduced function, 
+      documented with F392H PCFT, was due to a 15-fold decrease in methotrexate influx V 
+      (max), accompanied by a decreased influx K(t) (4.5-fold) and K(i) (3-fold). The data 
+      indicate that Phe-392 is required for rapid oscillation of the carrier among its 
+      conformational states and suggest that this is achieved by dampening affinity of the 
+      protein for its folate substrates. F392V and other inactivating Phe-392 PCFT 
+      mutations lock the protein in its inward-open conformation. Reach (length) and 
+      hydrophobicity of Phe-392 appear to be features required for full activity.
+FAU - Zhan, He-Qin
+AU  - Zhan HQ
+AD  - Department of Molecular Pharmacology, Albert Einstein College of Medicine, Bronx, 
+      New York, USA; Department of Pathology, School of Basic Medical Sciences, Anhui 
+      Medical University, Hefei, China.
+FAU - Najmi, Mitra
+AU  - Najmi M
+AD  - Department of Molecular Pharmacology, Albert Einstein College of Medicine, Bronx, 
+      New York, USA.
+FAU - Lin, Kai
+AU  - Lin K
+AD  - Department of Molecular Pharmacology, Albert Einstein College of Medicine, Bronx, 
+      New York, USA; Air Force Medical Center, People's Liberation Army, Beijing, China.
+FAU - Aluri, Srinivas
+AU  - Aluri S
+AD  - Department of Molecular Pharmacology, Albert Einstein College of Medicine, Bronx, 
+      New York, USA.
+FAU - Fiser, Andras
+AU  - Fiser A
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, Bronx, New York, USA; Department of Biochemistry, Albert Einstein College 
+      of Medicine, Bronx, New York, USA.
+FAU - Goldman, I David
+AU  - Goldman ID
+AD  - Department of Molecular Pharmacology, Albert Einstein College of Medicine, Bronx, 
+      New York, USA; Department of Medicine, Albert Einstein College of Medicine, Bronx, 
+      New York, USA. Electronic address: i.david.goldman@einsteinmed.org.
+FAU - Zhao, Rongbao
+AU  - Zhao R
+AD  - Department of Molecular Pharmacology, Albert Einstein College of Medicine, Bronx, 
+      New York, USA; Department of Medicine, Albert Einstein College of Medicine, Bronx, 
+      New York, USA.
+LA  - eng
+GR  - R01 CA082621/CA/NCI NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+DEP - 20200906
+TA  - J Biol Chem
+JT  - The Journal of biological chemistry
+JID - 2985121R
+RN  - 0 (Proton-Coupled Folate Transporter)
+RN  - 0 (SLC46A1 protein, human)
+RN  - K848JZ4886 (Cysteine)
+RN  - YL5FZ2Y5U1 (Methotrexate)
+RN  - Folate Malabsorption, Hereditary
+SB  - IM
+MH  - Amino Acid Sequence
+MH  - Animals
+MH  - Biological Transport
+MH  - Cysteine/chemistry/metabolism
+MH  - Folic Acid Deficiency/pathology
+MH  - HeLa Cells
+MH  - Humans
+MH  - Kinetics
+MH  - Malabsorption Syndromes/pathology
+MH  - Methotrexate/metabolism
+MH  - Mutagenesis, Site-Directed
+MH  - Protein Structure, Tertiary
+MH  - Proton-Coupled Folate Transporter/chemistry/genetics/*metabolism
+PMC - PMC7667981
+OTO - NOTNLM
+OT  - *PCFT
+OT  - *SLC46A1
+OT  - *facilitative transporters
+OT  - *folate
+OT  - *hereditary folate malabsorption (HFM)
+OT  - *homology modeling
+OT  - *methotrexate
+OT  - *mutant
+OT  - *mutually compensatory mutations
+OT  - *proton transport
+OT  - *proton-coupled folate transporter
+OT  - *reduced folate carrier
+OT  - *suppressor mutations
+OT  - *transporter
+COIS- Conflict of interest—The authors declare that they have no conflicts of interest 
+      with the contents of this article.
+EDAT- 2020/09/08 06:00
+MHDA- 2021/03/10 06:00
+PMCR- 2021/11/13
+CRDT- 2020/09/07 05:59
+PHST- 2020/06/09 00:00 [received]
+PHST- 2020/08/26 00:00 [revised]
+PHST- 2021/11/13 00:00 [pmc-release]
+PHST- 2020/09/08 06:00 [pubmed]
+PHST- 2021/03/10 06:00 [medline]
+PHST- 2020/09/07 05:59 [entrez]
+AID - S0021-9258(17)50395-6 [pii]
+AID - RA120.014757 [pii]
+AID - 10.1074/jbc.RA120.014757 [doi]
+PST - ppublish
+SO  - J Biol Chem. 2020 Nov 13;295(46):15650-15661. doi: 10.1074/jbc.RA120.014757. Epub 
+      2020 Sep 6.
+
+PMID- 32795404
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20211014
+LR  - 20211014
+IS  - 1878-4186 (Electronic)
+IS  - 0969-2126 (Print)
+IS  - 0969-2126 (Linking)
+VI  - 28
+IP  - 11
+DP  - 2020 Nov 3
+TI  - Redesigning HVEM Interface for Selective Binding to LIGHT, BTLA, and CD160.
+PG  - 1197-1205.e2
+LID - S0969-2126(20)30246-X [pii]
+LID - 10.1016/j.str.2020.07.013 [doi]
+AB  - Herpes virus entry mediator (HVEM) regulates positive and negative signals for 
+      T cell activation through co-signaling pathways. Dysfunction of the HVEM 
+      co-signaling network is associated with multiple pathologies related to 
+      autoimmunity, infectious disease, and cancer, making the associated molecules 
+      biologically and therapeutically attractive targets. HVEM interacts with three 
+      ligands from two different superfamilies using two different binding interfaces. The 
+      engagement with ligands CD160 and B- and T-lymphocyte attenuator (BTLA), members of 
+      immunoglobulin superfamily, is associated with inhibitory signals, whereas 
+      inflammatory responses are regulated through the interaction with LIGHT from the TNF 
+      superfamily. We computationally redesigned the HVEM recognition interfaces using a 
+      residue-specific pharmacophore approach, ProtLID, to achieve switchable-binding 
+      specificity. In subsequent cell-based binding assays the new interfaces, designed 
+      with only single or double mutations, exhibited selective binding to only one or two 
+      out of the three cognate ligands.
+CI  - Copyright © 2020 Elsevier Ltd. All rights reserved.
+FAU - Shrestha, Rojan
+AU  - Shrestha R
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA; Department of Biochemistry, 
+      Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA.
+FAU - Garrett-Thomson, Sarah C
+AU  - Garrett-Thomson SC
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park 
+      Avenue, Bronx, NY 10461, USA.
+FAU - Liu, Weifeng
+AU  - Liu W
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park 
+      Avenue, Bronx, NY 10461, USA.
+FAU - Almo, Steven C
+AU  - Almo SC
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, 1300 Morris Park 
+      Avenue, Bronx, NY 10461, USA. Electronic address: steve.almo@einsteinmed.org.
+FAU - Fiser, Andras
+AU  - Fiser A
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA; Department of Biochemistry, 
+      Albert Einstein College of Medicine, 1300 Morris Park Avenue, Bronx, NY 10461, USA. 
+      Electronic address: andras.fiser@einsteinmed.org.
+LA  - eng
+GR  - R01 AI141816/AI/NIAID NIH HHS/United States
+GR  - R01 GM118709/GM/NIGMS NIH HHS/United States
+GR  - R35 GM136357/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+DEP - 20200813
+TA  - Structure
+JT  - Structure (London, England : 1993)
+JID - 101087697
+RN  - 0 (Antigens, CD)
+RN  - 0 (BTLA protein, human)
+RN  - 0 (CD160 protein, human)
+RN  - 0 (GPI-Linked Proteins)
+RN  - 0 (Receptors, Immunologic)
+RN  - 0 (Receptors, Tumor Necrosis Factor, Member 14)
+RN  - 0 (Receptors, Virus)
+RN  - 0 (Recombinant Proteins)
+RN  - 0 (TNFSF14 protein, human)
+RN  - 0 (Tumor Necrosis Factor Ligand Superfamily Member 14)
+SB  - IM
+MH  - Antigens, CD/*chemistry/genetics/metabolism
+MH  - Binding Sites
+MH  - GPI-Linked Proteins/chemistry/genetics/metabolism
+MH  - Gene Expression
+MH  - HEK293 Cells
+MH  - Herpesvirus 1, Human/genetics/metabolism
+MH  - Humans
+MH  - Kinetics
+MH  - Molecular Dynamics Simulation
+MH  - Mutation
+MH  - Protein Binding
+MH  - Protein Conformation, alpha-Helical
+MH  - Protein Conformation, beta-Strand
+MH  - Protein Engineering/methods
+MH  - Protein Interaction Domains and Motifs
+MH  - Receptors, Immunologic/*chemistry/genetics/metabolism
+MH  - Receptors, Tumor Necrosis Factor, Member 14/*chemistry/genetics/metabolism
+MH  - Receptors, Virus/*chemistry/genetics/metabolism
+MH  - Recombinant Proteins/chemistry/genetics/metabolism
+MH  - Structural Homology, Protein
+MH  - T-Lymphocytes/metabolism/virology
+MH  - Tumor Necrosis Factor Ligand Superfamily Member 14/*chemistry/genetics/metabolism
+PMC - PMC7642093
+MID - NIHMS1620444
+OTO - NOTNLM
+OT  - *HVEM
+OT  - *ProtLID
+OT  - *computational interface design
+OT  - *immune synapse
+OT  - *protein-based drug discovery
+OT  - *protein-protein interactions
+OT  - *residue-specific pharmacophores
+OT  - *switchable-binding selectivity
+COIS- Declaration of Interests The authors declare no conflict of interest.
+EDAT- 2020/08/17 06:00
+MHDA- 2021/10/15 06:00
+PMCR- 2021/11/03
+CRDT- 2020/08/16 06:00
+PHST- 2019/12/20 00:00 [received]
+PHST- 2020/06/01 00:00 [revised]
+PHST- 2020/07/23 00:00 [accepted]
+PHST- 2021/11/03 00:00 [pmc-release]
+PHST- 2020/08/17 06:00 [pubmed]
+PHST- 2021/10/15 06:00 [medline]
+PHST- 2020/08/16 06:00 [entrez]
+AID - S0969-2126(20)30246-X [pii]
+AID - 10.1016/j.str.2020.07.013 [doi]
+PST - ppublish
+SO  - Structure. 2020 Nov 3;28(11):1197-1205.e2. doi: 10.1016/j.str.2020.07.013. Epub 2020 
+      Aug 13.
+
+PMID- 31977133
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20210615
+IS  - 1097-0134 (Electronic)
+IS  - 0887-3585 (Linking)
+VI  - 88
+IP  - 3
+DP  - 2020 Mar
+TI  - Assessment of chemical-crosslink-assisted protein structure modeling in CASP13.
+PG  - 540
+LID - 10.1002/prot.25867 [doi]
+FAU - Fajardo, J Eduardo
+AU  - Fajardo JE
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, New York.
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, New York.
+FAU - Shrestha, Rojan
+AU  - Shrestha R
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, New York.
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, New York.
+FAU - Gil, Nelson
+AU  - Gil N
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, New York.
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, New York.
+FAU - Belsom, Adam
+AU  - Belsom A
+AD  - Bioanalytics, Institute of Biotechnology, Technische Universität Berlin, Berlin, 
+      Germany.
+FAU - Crivelli, Silvia N
+AU  - Crivelli SN
+AD  - Department of Computer Science, UC Davis, California.
+FAU - Czaplewski, Cezary
+AU  - Czaplewski C
+AUID- ORCID: 0000-0002-0294-3403
+AD  - Faculty of Chemistry, University of Gdansk, Poland.
+FAU - Fidelis, Krzysztof
+AU  - Fidelis K
+AUID- ORCID: 0000-0002-8061-412X
+AD  - Genome Center, University of California, California.
+FAU - Grudinin, Sergei
+AU  - Grudinin S
+AD  - University of Grenoble Alpes, CNRS, Grenoble, France.
+FAU - Karasikov, Mikhail
+AU  - Karasikov M
+AD  - Center for Energy Systems, Skolkovo Institute of Science and Technology, Moscow, 
+      Russia.
+AD  - Moscow Institute of Physics and Technology, Moscow, Russia.
+AD  - Department of Computer Science, ETH Zurich, Zurich, Switzerland.
+FAU - Karczyńska, Agnieszka S
+AU  - Karczyńska AS
+AD  - Faculty of Chemistry, University of Gdansk, Poland.
+FAU - Kryshtafovych, Andriy
+AU  - Kryshtafovych A
+AUID- ORCID: 0000-0001-5066-7178
+AD  - Genome Center, University of California, California.
+FAU - Leitner, Alexander
+AU  - Leitner A
+AD  - Department of Biology, Institute of Molecular Systems Biology, Zurich, Switzerland.
+FAU - Liwo, Adam
+AU  - Liwo A
+AD  - Faculty of Chemistry, University of Gdansk, Poland.
+AD  - School of Computational Sciences, Korea Institute for Advanced Study, Seoul, 
+      Republic of Korea.
+FAU - Lubecka, Emilia A
+AU  - Lubecka EA
+AD  - Institute of Informatics, Faculty of Mathematics, Physics, and Informatics, 
+      University of Gdańsk, Gdańsk, Poland.
+FAU - Monastyrskyy, Bohdan
+AU  - Monastyrskyy B
+AD  - Genome Center, University of California, California.
+FAU - Pagès, Guillaume
+AU  - Pagès G
+AD  - University of Grenoble Alpes, CNRS, Grenoble, France.
+FAU - Rappsilber, Juri
+AU  - Rappsilber J
+AD  - Bioanalytics, Institute of Biotechnology, Technische Universität Berlin, Berlin, 
+      Germany.
+AD  - Wellcome Centre for Cell Biology, University of Edinburgh, Edinburgh, UK.
+FAU - Sieradzan, Adam K
+AU  - Sieradzan AK
+AD  - Faculty of Chemistry, University of Gdansk, Poland.
+FAU - Sikorska, Celina
+AU  - Sikorska C
+AD  - Faculty of Chemistry, University of Gdansk, Poland.
+FAU - Trabjerg, Esben
+AU  - Trabjerg E
+AD  - Department of Biology, Institute of Molecular Systems Biology, Zurich, Switzerland.
+FAU - Fiser, Andras
+AU  - Fiser A
+AUID- ORCID: 0000-0003-0085-5335
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, New York.
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, New York.
+LA  - eng
+GR  - 103139/Z/13/Z/WT_/Wellcome Trust/United Kingdom
+GR  - R01 GM100482/GM/NIGMS NIH HHS/United States
+PT  - Published Erratum
+DEP - 20200103
+PL  - United States
+TA  - Proteins
+JT  - Proteins
+JID - 8700181
+SB  - IM
+EFR - Proteins. 2019 Dec;87(12):1283-1297. PMID: 31569265
+EDAT- 2020/01/25 06:00
+MHDA- 2020/01/25 06:01
+CRDT- 2020/01/25 06:00
+PHST- 2020/01/25 06:00 [entrez]
+PHST- 2020/01/25 06:00 [pubmed]
+PHST- 2020/01/25 06:01 [medline]
+AID - 10.1002/prot.25867 [doi]
+PST - ppublish
+SO  - Proteins. 2020 Mar;88(3):540. doi: 10.1002/prot.25867. Epub 2020 Jan 3.
+
+PMID- 31587357
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200629
+LR  - 20210310
+IS  - 1097-0134 (Electronic)
+IS  - 0887-3585 (Print)
+IS  - 0887-3585 (Linking)
+VI  - 87
+IP  - 12
+DP  - 2019 Dec
+TI  - Assessing the accuracy of contact predictions in CASP13.
+PG  - 1058-1068
+LID - 10.1002/prot.25819 [doi]
+AB  - The accuracy of sequence-based tertiary contact predictions was assessed in a blind 
+      prediction experiment at the CASP13 meeting. After 4 years of significant 
+      improvements in prediction accuracy, another dramatic advance has taken place since 
+      CASP12 was held 2 years ago. The precision of predicting the top L/5 contacts in the 
+      free modeling category, where L is the corresponding length of the protein in 
+      residues, has exceeded 70%. As a comparison, the best-performing group at CASP12 
+      with a 47% precision would have finished below the top 1/3 of the CASP13 groups. 
+      Extensively trained deep neural network approaches dominate the top performing 
+      algorithms, which appear to efficiently integrate information on coevolving residues 
+      and interacting fragments or possibly utilize memories of sequence similarities and 
+      sometimes can deliver accurate results even in the absence of virtually any target 
+      specific evolutionary information. If the current performance is evaluated by 
+      F-score on L contacts, it stands around 24% right now, which, despite the tremendous 
+      impact and advance in improving its utility for structure modeling, also suggests 
+      that there is much room left for further improvement.
+CI  - © 2019 Wiley Periodicals, Inc.
+FAU - Shrestha, Rojan
+AU  - Shrestha R
+AD  - Department of Systems and Computational Biology, and Department of Biochemistry, 
+      Albert Einstein College of Medicine, Bronx, New York.
+FAU - Fajardo, Eduardo
+AU  - Fajardo E
+AD  - Department of Systems and Computational Biology, and Department of Biochemistry, 
+      Albert Einstein College of Medicine, Bronx, New York.
+FAU - Gil, Nelson
+AU  - Gil N
+AD  - Department of Systems and Computational Biology, and Department of Biochemistry, 
+      Albert Einstein College of Medicine, Bronx, New York.
+FAU - Fidelis, Krzysztof
+AU  - Fidelis K
+AUID- ORCID: 0000-0002-8061-412X
+AD  - Genome Center, University of California, Davis, California.
+FAU - Kryshtafovych, Andriy
+AU  - Kryshtafovych A
+AUID- ORCID: 0000-0001-5066-7178
+AD  - Genome Center, University of California, Davis, California.
+FAU - Monastyrskyy, Bohdan
+AU  - Monastyrskyy B
+AUID- ORCID: 0000-0002-4803-0378
+AD  - Genome Center, University of California, Davis, California.
+FAU - Fiser, Andras
+AU  - Fiser A
+AUID- ORCID: 0000-0003-0085-5335
+AD  - Department of Systems and Computational Biology, and Department of Biochemistry, 
+      Albert Einstein College of Medicine, Bronx, New York.
+LA  - eng
+GR  - R01 AI141816/AI/NIAID NIH HHS/United States
+GR  - GM100482/GM/NIGMS NIH HHS/United States
+GR  - R01 GM100482/GM/NIGMS NIH HHS/United States
+GR  - GM118709/GM/NIGMS NIH HHS/United States
+GR  - AI141816/AI/NIAID NIH HHS/United States
+GR  - R01 GM118709/GM/NIGMS NIH HHS/United States
+PT  - Congress
+PT  - Research Support, N.I.H., Extramural
+DEP - 20191024
+TA  - Proteins
+JT  - Proteins
+JID - 8700181
+RN  - 0 (Proteins)
+SB  - IM
+MH  - Algorithms
+MH  - Computational Biology/*methods
+MH  - Congresses as Topic/standards/*statistics & numerical data
+MH  - Crystallography, X-Ray
+MH  - Entropy
+MH  - Humans
+MH  - Models, Molecular
+MH  - *Protein Conformation
+MH  - Proteins/*chemistry
+MH  - Reproducibility of Results
+MH  - Sequence Analysis, Protein/*methods
+PMC - PMC6851495
+MID - NIHMS1540609
+OTO - NOTNLM
+OT  - *CASP13
+OT  - *contact prediction
+OT  - *protein structure modeling
+EDAT- 2019/10/07 06:00
+MHDA- 2020/07/01 06:00
+CRDT- 2019/10/07 06:00
+PHST- 2019/04/25 00:00 [received]
+PHST- 2019/09/17 00:00 [revised]
+PHST- 2019/09/17 00:00 [accepted]
+PHST- 2019/10/07 06:00 [pubmed]
+PHST- 2020/07/01 06:00 [medline]
+PHST- 2019/10/07 06:00 [entrez]
+AID - 10.1002/prot.25819 [doi]
+PST - ppublish
+SO  - Proteins. 2019 Dec;87(12):1058-1068. doi: 10.1002/prot.25819. Epub 2019 Oct 24.
+
+PMID- 31569265
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20200629
+LR  - 20210310
+IS  - 1097-0134 (Electronic)
+IS  - 0887-3585 (Print)
+IS  - 0887-3585 (Linking)
+VI  - 87
+IP  - 12
+DP  - 2019 Dec
+TI  - Assessment of chemical-crosslink-assisted protein structure modeling in CASP13.
+PG  - 1283-1297
+LID - 10.1002/prot.25816 [doi]
+AB  - With the advance of experimental procedures obtaining chemical crosslinking 
+      information is becoming a fast and routine practice. Information on crosslinks can 
+      greatly enhance the accuracy of protein structure modeling. Here, we review the 
+      current state of the art in modeling protein structures with the assistance of 
+      experimentally determined chemical crosslinks within the framework of the 13th 
+      meeting of Critical Assessment of Structure Prediction approaches. This 
+      largest-to-date blind assessment reveals benefits of using data assistance in 
+      difficult to model protein structure prediction cases. However, in a broader 
+      context, it also suggests that with the unprecedented advance in accuracy to predict 
+      contacts in recent years, experimental crosslinks will be useful only if their 
+      specificity and accuracy further improved and they are better integrated into 
+      computational workflows.
+CI  - © 2019 Wiley Periodicals, Inc.
+FAU - Fajardo, J Eduardo
+AU  - Fajardo JE
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, Bronx, New York.
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, Bronx, New York.
+FAU - Shrestha, Rojan
+AU  - Shrestha R
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, Bronx, New York.
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, Bronx, New York.
+FAU - Gil, Nelson
+AU  - Gil N
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, Bronx, New York.
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, Bronx, New York.
+FAU - Belsom, Adam
+AU  - Belsom A
+AD  - Bioanalytics, Institute of Biotechnology, Technische Universität Berlin, Berlin, 
+      Germany.
+FAU - Crivelli, Silvia N
+AU  - Crivelli SN
+AD  - Department of Computer Science, UC Davis, Davis, California.
+FAU - Czaplewski, Cezary
+AU  - Czaplewski C
+AUID- ORCID: 0000-0002-0294-3403
+AD  - Faculty of Chemistry, University of Gdańsk, Gdańsk, Poland.
+FAU - Fidelis, Krzysztof
+AU  - Fidelis K
+AUID- ORCID: 0000-0002-8061-412X
+AD  - Genome Center, University of California, Davis, California.
+FAU - Grudinin, Sergei
+AU  - Grudinin S
+AD  - University of Grenoble Alpes, CNRS, Grenoble, France.
+FAU - Karasikov, Mikhail
+AU  - Karasikov M
+AD  - Center for Energy Systems, Skolkovo Institute of Science and Technology, Moscow, 
+      Russia.
+AD  - Moscow Institute of Physics and Technology, Moscow, Russia.
+AD  - Department of Computer Science, ETH Zurich, Zurich, Switzerland.
+FAU - Karczyńska, Agnieszka S
+AU  - Karczyńska AS
+AD  - Faculty of Chemistry, University of Gdańsk, Gdańsk, Poland.
+FAU - Kryshtafovych, Andriy
+AU  - Kryshtafovych A
+AUID- ORCID: 0000-0001-5066-7178
+AD  - Genome Center, University of California, Davis, California.
+FAU - Leitner, Alexander
+AU  - Leitner A
+AD  - Department of Biology, Institute of Molecular Systems Biology, Zurich, Switzerland.
+FAU - Liwo, Adam
+AU  - Liwo A
+AD  - Faculty of Chemistry, University of Gdańsk, Gdańsk, Poland.
+AD  - School of Computational Sciences, Korea Institute for Advanced Study, Seoul, 
+      Republic of Korea.
+FAU - Lubecka, Emilia A
+AU  - Lubecka EA
+AD  - Institute of Informatics, Faculty of Mathematics, Physics, and Informatics, 
+      University of Gdańsk, Gdańsk, Poland.
+FAU - Monastyrskyy, Bohdan
+AU  - Monastyrskyy B
+AD  - Genome Center, University of California, Davis, California.
+FAU - Pagès, Guillaume
+AU  - Pagès G
+AD  - University of Grenoble Alpes, CNRS, Grenoble, France.
+FAU - Rappsilber, Juri
+AU  - Rappsilber J
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, Bronx, New York.
+AD  - Wellcome Centre for Cell Biology, University of Edinburgh, Edinburgh, UK.
+FAU - Sieradzan, Adam K
+AU  - Sieradzan AK
+AD  - Faculty of Chemistry, University of Gdańsk, Gdańsk, Poland.
+FAU - Sikorska, Celina
+AU  - Sikorska C
+AD  - Faculty of Chemistry, University of Gdańsk, Gdańsk, Poland.
+FAU - Trabjerg, Esben
+AU  - Trabjerg E
+AD  - Department of Biology, Institute of Molecular Systems Biology, Zurich, Switzerland.
+FAU - Fiser, Andras
+AU  - Fiser A
+AUID- ORCID: 0000-0003-0085-5335
+AD  - Department of Systems and Computational Biology, Albert Einstein College of 
+      Medicine, Bronx, New York.
+AD  - Department of Biochemistry, Albert Einstein College of Medicine, Bronx, New York.
+LA  - eng
+GR  - R01 AI141816/AI/NIAID NIH HHS/United States
+GR  - GM100482/GM/NIGMS NIH HHS/United States
+GR  - R01 GM100482/GM/NIGMS NIH HHS/United States
+GR  - 103139/Z/13/Z/WT_/Wellcome Trust/United Kingdom
+GR  - GM118709/GM/NIGMS NIH HHS/United States
+GR  - AI141816/AI/NIAID NIH HHS/United States
+GR  - R01 GM118709/GM/NIGMS NIH HHS/United States
+PT  - Journal Article
+PT  - Research Support, N.I.H., Extramural
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20191007
+TA  - Proteins
+JT  - Proteins
+JID - 8700181
+RN  - 0 (Cross-Linking Reagents)
+RN  - 0 (Proteins)
+SB  - IM
+EIN - Proteins. 2020 Mar;88(3):540. PMID: 31977133
+MH  - Algorithms
+MH  - Chromatography, Liquid
+MH  - Computational Biology/*methods
+MH  - Cross-Linking Reagents/*chemistry
+MH  - Models, Chemical
+MH  - *Models, Molecular
+MH  - *Protein Conformation
+MH  - Proteins/*chemistry
+MH  - Reproducibility of Results
+MH  - Tandem Mass Spectrometry
+PMC - PMC6851497
+MID - NIHMS1540153
+OTO - NOTNLM
+OT  - *CASP13
+OT  - *chemical crosslinking/mass spectrometry
+OT  - *chemical-crosslink-assisted protein structure modeling
+COIS- The authors declare no conflict of interests.
+EDAT- 2019/10/01 06:00
+MHDA- 2020/07/01 06:00
+CRDT- 2019/10/01 06:00
+PHST- 2019/04/25 00:00 [received]
+PHST- 2019/08/08 00:00 [revised]
+PHST- 2019/09/13 00:00 [accepted]
+PHST- 2019/10/01 06:00 [pubmed]
+PHST- 2020/07/01 06:00 [medline]
+PHST- 2019/10/01 06:00 [entrez]
+AID - 10.1002/prot.25816 [doi]
+PST - ppublish
+SO  - Proteins. 2019 Dec;87(12):1283-1297. doi: 10.1002/prot.25816. Epub 2019 Oct 7.
