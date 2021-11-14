@@ -1,5 +1,5 @@
-import Logo from './logo'
 import NextLink from 'next/link'
+import React, {useEffect, useState } from 'react'
 import {
     Container,
     Box,
@@ -14,10 +14,16 @@ import {
     IconButton,
     useColorModeValue
   } from '@chakra-ui/react'
+import hero from "../images/hero.jpg"
 
 import {HamburgerIcon} from '@chakra-ui/icons'
+import styled from '@emotion/styled'
+import Logo from './logo'
 import ThemeToggleButton from './theme-toggle-button'
 // E8AEAE
+
+
+
 
 const LinkItem = ({ href, path, _target,children, ...props}) => {
     const active = path === href
@@ -27,7 +33,8 @@ const LinkItem = ({ href, path, _target,children, ...props}) => {
         <Link
             p={2}
             // bg={active ? '#E8AEAE' : undefined}
-            color={active ? '#202023' : inactiveColor}
+            // color={active ? '#202023' : inactiveColor}
+            color='whiteAlpha.900'
             _target={_target}
             {...props}
         >
@@ -39,17 +46,14 @@ const LinkItem = ({ href, path, _target,children, ...props}) => {
 
 const Navbar = props => {
     const { path } = props
-    
     return(
-
     <Box
-        position='fixed'
+        position='absolute'
         w='100%'
-        as='nav'
-        
-        bg={useColorModeValue('#A9A9A9', '#4c5270')}
-        style={{backdropFilter:'blur{10px}'}}
-        zIndex={1}
+        as='nav'        
+        // bg={useColorModeValue('#A9A9A9', '#4c5270')}
+        // style={{backdropFilter:'blur{10px}'}}
+        // zIndex={1}
         {...props}> 
         <Container display='flex' p={2}  maxW='container.md'
          wrap='wrap' align='center' justify='space-between' >

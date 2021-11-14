@@ -1,47 +1,46 @@
 import {Divider, Image, Box, Container, Heading, SimpleGrid , LinkOverlay,Text, LinkBox} from '@chakra-ui/react'
 import Paragraph from "../components/paragraph"
 
-import Layout from '../components/layouts/article'
+// import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import {PubGridItem}  from '../components/grid-item'
+// import {PubGridItem}  from '../components/grid-item'
 import {publicationList} from '../components/publicationList'
 // Make this all dynamic reading from google scholor or pubmed
 
 const Publications = () =>{
    
-
-
    return (
     <Container>
-        <Heading as="h3" fontSize={20} mb={4}>
-             Our Publications
-        </Heading>
+       <Section>
+            <Heading paddingY="30">
+                Our Publications
+            </Heading>
+        </Section>
 
             {publicationList && publicationList.length>0 && publicationList.map((paperList, index) => (
                 
-                <Section delay={index/10}>
+                <Section delay={index/10} key={index}>
                    <LinkBox cursor="pointer" >
                     <LinkOverlay href={paperList.link} target="_blank" _hover={{textDecoration: 'underline'}}>
                         <Heading as='h3' variant='section-title' > {paperList.title}</Heading>
                     </LinkOverlay>
                     </LinkBox>
-                <Container > 
-                    <Paragraph align="left">
+                <Box > 
+                    <Paragraph align="center">
                         {paperList.abstarct}
                     </Paragraph>
 
                     <Image
                         boxShadow="dark-lg"
-
                         m='10'
                         src={paperList.thumbnail}
                         alt={paperList.title}
                         className="grid-item-thumbnail"
                         placeholder="blur"
                         loading="lazy"
-                        align="right"
+                        align="center"
                     />
-                </Container>
+                </Box>
 
                 <Divider orientation="horizontal" />
                 </Section>

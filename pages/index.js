@@ -1,5 +1,6 @@
 // import { Container , Box, Heading} from "@chakra-ui/react"
 import Section from "../components/section"
+// import WithBackgroundImage from "../components/hero"
 import Paragraph from "../components/paragraph"
 import Layout from '../components/layouts/article'
 import {
@@ -18,15 +19,18 @@ import {
 
 
 
+// TODO Fix padding on a/l text
+// TOOD Fix dark mode text coloring, *make titles pop and paragraphs not!
+// TOOD Section breaks that make sense 
 
-//   bg='#94c4e4'
 const Page =()=> {
     return(
+        
         <Layout> 
+
         <Container> 
-            <Box borderRadius='lg' bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} mt={3} align="center">
-                Fiser Lab: Structural and Computational Biology at the Einstein College of Medicine
-            </Box> 
+    
+           
 
             <Box  display={{md:'flex'}} >
             <Box flexGrow={1}>
