@@ -22,6 +22,7 @@ import {
 // TODO Fix padding on a/l text
 // TOOD Fix dark mode text coloring, *make titles pop and paragraphs not!
 // TOOD Section breaks that make sense 
+// TODO add trainstion to hero on page change   
 
 const Page =()=> {
     return(

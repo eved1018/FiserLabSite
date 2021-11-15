@@ -1,5 +1,4 @@
 import NextLink from 'next/link'
-import React, {useEffect, useState } from 'react'
 import {
     Container,
     Box,
@@ -14,7 +13,6 @@ import {
     IconButton,
     useColorModeValue
   } from '@chakra-ui/react'
-import hero from "../images/hero.jpg"
 
 import {HamburgerIcon} from '@chakra-ui/icons'
 import styled from '@emotion/styled'

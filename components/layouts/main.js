@@ -2,7 +2,9 @@ import {Box, Container} from '@chakra-ui/react'
 import Head from 'next/head'
 import Navbar from '../navbar'
 import Hero from "../hero"
-import { ParallaxProvider } from 'react-scroll-parallax';
+import { AnimatePresence, motion } from 'framer-motion'
+
+// import { ParallaxProvider } from 'react-scroll-parallax';
 
 const Main = ({children, router}) => {
     return (
@@ -12,9 +14,11 @@ const Main = ({children, router}) => {
             <title>Fiser Lab - Homepage</title>
 
             </Head>
-
                 <Navbar path={router.asPath} />
-                <Hero path={router.asPath}/>
+                <AnimatePresence exitBeforeEnter >
+                        <Hero path={router.asPath}/>
+                </AnimatePresence>
+
             <Container maxW="container.md" pt={14}>
                 {children}
             </Container>

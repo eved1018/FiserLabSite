@@ -1,13 +1,17 @@
 import { ChakraProvider } from "@chakra-ui/react";
+import ErrorPage from 'next/error'
+import App from 'next/app'
 import Layout from '../components/layouts/main'
 import theme  from '../lib/theme'
 import Fonts from '../components/fonts' 
 import { AnimatePresence } from "framer-motion";
 
 
-function Website({ Component, pageProps,router }){
-    return(
 
+
+function Website({ Component, pageProps,router }){
+    
+    return(
         <ChakraProvider theme={theme}>
             <Fonts />
             <Layout router={router}>
@@ -17,5 +21,4 @@ function Website({ Component, pageProps,router }){
             </Layout>
         </ChakraProvider>
         )}
-
     export default Website 

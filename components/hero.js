@@ -1,6 +1,7 @@
 
 import { Box, useColorModeValue } from "@chakra-ui/react"
 import Image from "next/image"
+import { motion } from 'framer-motion'
 import hero from "../images/hero.jpg"
 import {
     Stack,
@@ -14,32 +15,44 @@ import {
 // import { Parallax } from 'react-scroll-parallax';
   
 
-const map = {
+const linkMap = {
     "/" : ["Fiser Lab","100vh"],
-    "/publications" : ["","40vh"],
-    "/links" : ["","40vh"],
-    "/contact" : ["","40vh"],
-    "/team" : ["","40vh"],
-    "/programs" : ["","40vh"],
+    "/publications" : ["","30vh"],
+    "/links" : ["","30vh"],
+    "/contact" : ["","30vh"],
+    "/team" : ["","30vh"],
+    "/programs" : ["","30vh"],
+    
 };
 
 
 export default function Hero({path}) {
+  
+  var hVar = "25vh"
+  var pathVar ="error"
 
+  if (linkMap.hasOwnProperty(path)) {
+    var hVar =linkMap[path][1];
+    var pathVar = linkMap[path][0];
+  }
+  
+ 
 
     return (
-
+      
+    
       <Flex
         w={'full'}
         // h={'100vh'}
-        h= {map[path][1]}
+        h= {hVar}
         justifyContent="center"
         backgroundImage={"url('/images/hero.jpg')"}
         backgroundSize={'cover'}
         backgroundPosition={'center center'}
-        
         >
+    
 
+       
         <VStack
           w={'full'}
           justify={'center'}
@@ -48,8 +61,8 @@ export default function Hero({path}) {
           backgroundAttachment={ "fixed"}
         backgroundPosition= {"center"}
         backgroundRepeat= {"no-repeat"}>
-
-     if map[path][0] == {"/"}  { 
+    
+      if {pathVar} == {"/"}  { 
           <Stack maxW={'2xl'} align={'flex-start'} spacing={6} >
                             
             <Text
@@ -72,10 +85,12 @@ export default function Hero({path}) {
            
             
               
-            </Stack>}
+            </Stack>
+          }
         </VStack>
       </Flex>
 
     );
-  }
+  } 
+
   
