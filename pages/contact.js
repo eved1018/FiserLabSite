@@ -9,11 +9,11 @@ const Contact = () => {
     return(
         <Container>
             <Section>
-                <Section>
+                {/* <Section>
                     <Heading paddingY="30">
                         Contact Us
                     </Heading>
-                </Section>
+                </Section> */}
             <Text fontWeight="bold"> Regular mail address:</Text>
             <Text>Andras Fiser, Ph.D., D.Sc.</Text>
             <Text>Professor</Text>

@@ -7,11 +7,11 @@ import {linksList} from '../components/linkItems'
 const Links  = () => {
     return(
         <Container> 
-            <Section>
+            {/* <Section>
                     <Heading paddingY="30">
                          Links
                     </Heading>
-                </Section>
+                </Section> */}
 
 
                 
