@@ -64,7 +64,7 @@ export default function Hero({path}) {
         backgroundRepeat= {"no-repeat"}>
     
       {/* if {pathVar} == {"/"}  {  */}
-          <Stack maxW={'2xl'} align={'flex-start'} spacing={6} >
+          <Stack maxW={'2xl'} align={'flex-start'} spacing={6} textAlign={'center'} >
                             
             <Text
               color={'white'}
@@ -78,7 +78,7 @@ export default function Hero({path}) {
             <Text color={'white'}
               fontWeight={400}
               lineHeight={1.2}
-           
+              
               fontSize={useBreakpointValue({ base: 'l', md: 'xl' })}>
                    {subtext}
                 </Text>
