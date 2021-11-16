@@ -10,7 +10,7 @@ import {
     VStack,
     useBreakpointValue,
   } from '@chakra-ui/react';
-
+import AnimatedText from './AnimatedText'
 
 // import { Parallax } from 'react-scroll-parallax';
   
