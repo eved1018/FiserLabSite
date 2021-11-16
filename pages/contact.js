@@ -25,7 +25,7 @@ const Contact = () => {
             <Text fontWeight="bold">phone:</Text>
             <Text> (718)678-1068 </Text>
             <Text fontWeight="bold">emial:</Text>
-            <Text>e-mail: andras.fiser at einstein.yu.edu</Text>
+            <Text>e-mail: andras.fiser@einstein.yu.edu</Text>
         
             <Box paddingY="16">
             <iframe
