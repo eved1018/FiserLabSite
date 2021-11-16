@@ -16,7 +16,7 @@ import {
   
 
 const linkMap = {
-    "/" : ["Fiser Lab","Structural and Computational Biology at the Einstein College of Medicine","100vh" ],
+    "/" : [[{type: "heading1", text: "Fiser Lab"},{type:"heading2",text:"Structural and Computational Biology at the Einstein College of Medicine"}],"100vh" ],
     "/publications" : ["Publications","","30vh"],
     "/links" : ["Links","","30vh"],
     "/contact" : ["Contact Us","", "30vh"],
@@ -26,19 +26,37 @@ const linkMap = {
 };
 
 
+
+
 export default function Hero({path}) {
   
   var hVar = "25vh"
-  var pathVar ="error"
+  var pathVar =[{type: "heading1", text: "error"}]
 
   if (linkMap.hasOwnProperty(path)) {
     var hVar =linkMap[path][2];
     var pathVar = linkMap[path][0];
-    var subtext = linkMap[path][1];
+    // var subtext = linkMap[path][1];
   }
-  
- 
+  // Placeholder text data, as if from API
+  // const placeholderText = [
+  //   { type: "heading1", text: "Framer Motion" },
+  //   {
+  //     type: "heading2",
+  //     text: "Animating responsive text!"
+  //   }
+  // ];
 
+  const container = {
+    visible: {
+      transition: {
+        staggerChildren: 0.025
+      }
+    }
+  };
+
+ 
+ 
     return (
       
     
@@ -64,7 +82,7 @@ export default function Hero({path}) {
         backgroundRepeat= {"no-repeat"}>
     
       {/* if {pathVar} == {"/"}  {  */}
-          <Stack maxW={'2xl'} align={'flex-start'} spacing={6} textAlign={'center'} >
+          {/* <Stack maxW={'2xl'} align={'flex-start'} spacing={6} textAlign={'center'} >
                             
             <Text
               color={'white'}
@@ -81,12 +99,26 @@ export default function Hero({path}) {
               
               fontSize={useBreakpointValue({ base: 'l', md: 'xl' })}>
                    {subtext}
-                </Text>
+                </Text> */}
+                <motion.div
+      className="App"
+      initial="hidden"
+      // animate="visible"
+      animate={replay ? "visible" : "hidden"}
+      variants={container}
+    >
+      <div className="container">
+        {pathVar.map((item, index) => {
+          return <AnimatedText {...item} key={index} />;
+        })}
+      </div>
+      
+    </motion.div>
             
            
             
               
-            </Stack>
+            {/* </Stack> */}
           {/* } */}
         </VStack>
       </Flex>
