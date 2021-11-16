@@ -38,15 +38,7 @@ export default function Hero({path}) {
     var pathVar = linkMap[path][0];
     // var subtext = linkMap[path][1];
   }
-  // Placeholder text data, as if from API
-  // const placeholderText = [
-  //   { type: "heading1", text: "Framer Motion" },
-  //   {
-  //     type: "heading2",
-  //     text: "Animating responsive text!"
-  //   }
-  // ];
-
+ 
   const container = {
     visible: {
       transition: {
@@ -101,19 +93,19 @@ export default function Hero({path}) {
                    {subtext}
                 </Text> */}
                 <motion.div
-      className="App"
-      initial="hidden"
-      // animate="visible"
-      animate={replay ? "visible" : "hidden"}
-      variants={container}
-    >
-      <div className="container">
-        {pathVar.map((item, index) => {
-          return <AnimatedText {...item} key={index} />;
-        })}
-      </div>
-      
-    </motion.div>
+                  className="App"
+                  initial="hidden"
+                  animate="visible"
+                  // animate={replay ? "visible" : "hidden"}
+                  variants={container}
+                >
+                  <div className="container">
+                    {pathVar.map((item, index) => {
+                      return <AnimatedText {...item} key={index} />;
+                    })}
+                  </div>
+                  
+                </motion.div>
             
            
             
