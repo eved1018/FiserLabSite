@@ -8,11 +8,11 @@ const Programs  = () => (
 <Container> 
     <Layout title="Programs">        
         <Container>
-        <Section>
+        {/* <Section>
                     <Heading paddingY="30">
                         Our Programs and Serves
                     </Heading>
-                </Section>
+                </Section> */}
             <Section delay={0.1}>
                 <SimpleGrid columns={[1, 2, 2]} gap={6}>
                 <GridItem

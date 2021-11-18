@@ -9,11 +9,11 @@ const Team = () => {
 
     return(
        <Container>
-           <Section>
+           {/* <Section>
                     <Heading >
                         Our Team
                     </Heading>
-                </Section>
+                </Section> */}
             <Section delay={0.1}>
                 <PiCard></PiCard>
             </Section>

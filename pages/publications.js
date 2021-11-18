@@ -11,11 +11,11 @@ const Publications = () =>{
    
    return (
     <Container>
-       <Section>
+       {/* <Section>
             <Heading paddingY="30">
                 Our Publications
             </Heading>
-        </Section>
+        </Section> */}
 
             {publicationList && publicationList.length>0 && publicationList.map((paperList, index) => (
                 
