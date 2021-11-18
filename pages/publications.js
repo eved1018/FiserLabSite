@@ -11,12 +11,7 @@ const Publications = () =>{
    
    return (
     <Container>
-       {/* <Section>
-            <Heading paddingY="30">
-                Our Publications
-            </Heading>
-        </Section> */}
-
+      
             {publicationList && publicationList.length>0 && publicationList.map((paperList, index) => (
                 
                 <Section delay={index/10} key={index}>
@@ -29,7 +24,7 @@ const Publications = () =>{
                     <Paragraph align="center">
                         {paperList.abstarct}
                     </Paragraph>
-
+                    {paperList.thumbnail.length > 0 &&
                     <Image
                         boxShadow="dark-lg"
                         m='10'
@@ -39,7 +34,7 @@ const Publications = () =>{
                         placeholder="blur"
                         loading="lazy"
                         align="center"
-                    />
+                    />}
                 </Box>
 
                 <Divider orientation="horizontal" />

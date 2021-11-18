@@ -10,13 +10,12 @@ import {
     VStack,
     useBreakpointValue,
   } from '@chakra-ui/react';
-import AnimatedText from './AnimatedText'
+import Section from './section'
 
-// import { Parallax } from 'react-scroll-parallax';
   
 
 const linkMap = {
-    "/" : [[{type: "heading1", text: "Fiser Lab"},{type:"heading2",text:"Structural and Computational Biology at the Einstein College of Medicine"}],"100vh" ],
+    "/" : ["Fiser Lab","Structural and Computational Biology at the Einstein College of Medicine","100vh"],
     "/publications" : ["Publications","","30vh"],
     "/links" : ["Links","","30vh"],
     "/contact" : ["Contact Us","", "30vh"],
@@ -36,7 +35,7 @@ export default function Hero({path}) {
   if (linkMap.hasOwnProperty(path)) {
     var hVar =linkMap[path][2];
     var pathVar = linkMap[path][0];
-    // var subtext = linkMap[path][1];
+    var subtext = linkMap[path][1];
   }
  
   const container = {
@@ -50,6 +49,7 @@ export default function Hero({path}) {
  
  
     return (
+      <Section>
       <Flex
         w={'full'}
         // h={'100vh'}
@@ -96,6 +96,7 @@ export default function Hero({path}) {
           
         </VStack>
       </Flex>
+      </Section>
     );
   } 
 
