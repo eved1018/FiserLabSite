@@ -39,8 +39,6 @@ export default function Hero({path}) {
  
 
     return (
-      
-    
       <Flex
         w={'full'}
         // h={'100vh'}
@@ -49,6 +47,7 @@ export default function Hero({path}) {
         backgroundImage={"url('/images/hero.jpg')"}
         backgroundSize={'cover'}
         backgroundPosition={'center center'}
+        an
         >
     
 
@@ -89,7 +88,6 @@ export default function Hero({path}) {
           }
         </VStack>
       </Flex>
-
     );
   } 
 

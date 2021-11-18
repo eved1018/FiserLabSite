@@ -15,10 +15,7 @@ const Main = ({children, router}) => {
 
             </Head>
                 <Navbar path={router.asPath} />
-                <AnimatePresence exitBeforeEnter >
-                        <Hero path={router.asPath}/>
-                </AnimatePresence>
-
+                <Hero path={router.asPath}/>
             <Container maxW="container.md" pt={14}>
                 {children}
             </Container>
