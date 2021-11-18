@@ -72,8 +72,8 @@ export default function Hero({path}) {
         backgroundPosition= {"center"}
         backgroundRepeat= {"no-repeat"}>
     
-      {/* if {pathVar} == {"/"}  {  */}
-          {/* <Stack maxW={'2xl'} align={'flex-start'} spacing={6} textAlign={'center'} >
+      if {pathVar} == {"/"}  {
+           <Stack maxW={'2xl'} align={'flex-start'} spacing={6} textAlign={'center'}>
                             
             <Text
               color={'white'}
@@ -90,27 +90,10 @@ export default function Hero({path}) {
               
               fontSize={useBreakpointValue({ base: 'l', md: 'xl' })}>
                    {subtext}
-                </Text> */}
-                <motion.div
-                  className="App"
-                  initial="hidden"
-                  animate="visible"
-                  // animate={replay ? "visible" : "hidden"}
-                  variants={container}
-                >
-                  <div className="container">
-                    {pathVar.map((item, index) => {
-                      return <AnimatedText {...item} key={index} />;
-                    })}
-                  </div>
+                </Text> 
                   
-                </motion.div>
-            
-           
-            
-              
-            {/* </Stack> */}
-          {/* } */}
+          </Stack> }
+          
         </VStack>
       </Flex>
     );
