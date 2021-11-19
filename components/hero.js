@@ -29,22 +29,19 @@ const linkMap = {
 
 export default function Hero({path}) {
   
+ 
   var hVar = "25vh"
-  var pathVar =[{type: "heading1", text: "error"}]
+  var pathVar ="error"
+  var subtext = "";
 
   if (linkMap.hasOwnProperty(path)) {
     var hVar =linkMap[path][2];
     var pathVar = linkMap[path][0];
     var subtext = linkMap[path][1];
   }
+  
  
-  const container = {
-    visible: {
-      transition: {
-        staggerChildren: 0.025
-      }
-    }
-  };
+  
 
  
  
@@ -72,7 +69,7 @@ export default function Hero({path}) {
         backgroundPosition= {"center"}
         backgroundRepeat= {"no-repeat"}>
     
-      if {pathVar} == {"/"}  {
+      
            <Stack maxW={'2xl'} align={'flex-start'} spacing={6} textAlign={'center'}>
                             
             <Text
@@ -92,7 +89,7 @@ export default function Hero({path}) {
                    {subtext}
                 </Text> 
                   
-          </Stack> }
+          </Stack> 
           
         </VStack>
       </Flex>

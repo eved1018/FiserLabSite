@@ -18,4 +18,4 @@ const publicationList = [
     
     
 ]
-export {publicationList}
+export default publicationList

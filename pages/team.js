@@ -9,11 +9,6 @@ const Team = () => {
 
     return(
        <Container>
-           {/* <Section>
-                    <Heading >
-                        Our Team
-                    </Heading>
-                </Section> */}
             <Section delay={0.1}>
                 <PiCard></PiCard>
             </Section>

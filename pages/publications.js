@@ -1,7 +1,7 @@
 import {Divider, Image, Box, Container, Heading, SimpleGrid , LinkOverlay,Text, LinkBox} from '@chakra-ui/react'
 import Paragraph from "../components/paragraph"
 import Section from '../components/section'
-import {publicationList} from '../components/publicationList'
+import publicationList  from '../components/publicationList'
 // Make this all dynamic reading from google scholor or pubmed
 
 const Publications = () =>{
@@ -9,7 +9,7 @@ const Publications = () =>{
    return (
     <Container>
       
-            {publicationList && publicationList.length>0 && publicationList.map((paperList, index) => (
+            {publicationList && publicationList.length>0 &&  publicationList.map((paperList, index) => (
                 
                 <Section delay={index/10} key={index}>
                    <LinkBox cursor="pointer" >
@@ -21,7 +21,7 @@ const Publications = () =>{
                     <Paragraph align="center">
                         {paperList.abstarct}
                     </Paragraph>
-                    {/* {paperList.thumbnail.length > 0 && */}
+                    {paperList.thumbnail.length >0 &&
                     <Image
                         boxShadow="dark-lg"
                         m='10'
@@ -31,8 +31,7 @@ const Publications = () =>{
                         placeholder="blur"
                         loading="lazy"
                         align="center"
-                    />
-                    {/* } */}
+                    />}
                 </Box>
 
                 <Divider orientation="horizontal" />

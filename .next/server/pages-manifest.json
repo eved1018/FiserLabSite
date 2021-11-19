@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
+  "/programs": "pages/programs.js",
+  "/publications": "pages/publications.js",
+  "/team": "pages/team.js",
+  "/links": "pages/links.js",
+  "/": "pages/index.js",
+  "/contact": "pages/contact.js",
+  "/404": "pages/404.js"
+}
