@@ -13,7 +13,6 @@ import {
 import Section from './section'
 
   
-
 const linkMap = {
     "/" : ["Fiser Lab","Structural and Computational Biology at the Einstein College of Medicine","100vh"],
     "/publications" : ["Publications","","30vh"],
@@ -23,9 +22,6 @@ const linkMap = {
     "/programs" : ["Our Programs", "", "30vh"],
     
 };
-
-
-
 
 export default function Hero({path}) {
   
@@ -38,15 +34,9 @@ export default function Hero({path}) {
     var hVar =linkMap[path][2];
     var pathVar = linkMap[path][0];
     var subtext = linkMap[path][1];
-  }
-  
- 
-  
-
- 
- 
+  } 
     return (
-      <Section>
+      
       <Flex
         w={'full'}
         // h={'100vh'}
@@ -55,7 +45,8 @@ export default function Hero({path}) {
         backgroundImage={"url('/images/hero.jpg')"}
         backgroundSize={'cover'}
         backgroundPosition={'center center'}
-        an
+        
+        
         >
     
 
@@ -64,7 +55,7 @@ export default function Hero({path}) {
           w={'full'}
           justify={'center'}
           px={useBreakpointValue({ base: 4, md: 8 })}
-          bgGradient={'linear( blackAlpha.800, transparent)'}
+          bgGradient={'linear( blackAlpha.800, transparent)'} // make this less wonky 
           backgroundAttachment={ "fixed"}
         backgroundPosition= {"center"}
         backgroundRepeat= {"no-repeat"}>
@@ -93,7 +84,7 @@ export default function Hero({path}) {
           
         </VStack>
       </Flex>
-      </Section>
+      
     );
   } 
 

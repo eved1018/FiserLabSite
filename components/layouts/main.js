@@ -3,11 +3,10 @@ import Head from 'next/head'
 import Navbar from '../navbar'
 import Hero from "../hero"
 import { AnimatePresence, motion } from 'framer-motion'
-
-// import { ParallaxProvider } from 'react-scroll-parallax';
+import Section from '../section'
+import { Footer } from "../footer";
 
 const Main = ({children, router}) => {
-    console.log(router.asPath.toString())
     return (
         <Box>
         {router.asPath.toString != "/404" &&
@@ -18,15 +17,20 @@ const Main = ({children, router}) => {
 
             </Head>
                 <Navbar path={router.asPath} />
-                
-                <Hero path={router.asPath}/>
+                <motion.div key={router.route}  initial={{ y: 10, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ ease: "easeIn", duration: 1 }}>
+
+                         <Hero path={router.asPath}/>
+                </motion.div>
             <Container maxW="container.md" pt={14}>
                 {children}
             </Container>
         </Box>}
+        <Footer/>
+
     </Box>
 
        
 )}
 
 export default Main 
+
