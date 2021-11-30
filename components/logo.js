@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import {Text,useColorModeValue} from '@chakra-ui/react'
+import { Text, useColorModeValue } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 import logo from '../images/logo.png'
 
@@ -20,18 +20,18 @@ const LogoBox = styled.span`
         transform: scale(1.3)
     }`
 
-const Logo =() => {
+const Logo = (color) => {
     return (
         <Link href="/">
             <a>
                 <LogoBox>
                     <Image src={logo} width={25} height={25} alt='logo' />
                     <Text color='whiteAlpha.900' fontFamily='Fira Sans Condensed' fontWeight='bold' ml={3}>
-                    Fiser Lab
+                        Fiser Lab
                     </Text>
                 </LogoBox>
             </a>
         </Link>
     )
 }
-export default Logo 
+export default Logo

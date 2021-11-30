@@ -5,11 +5,9 @@ import Logo from './logo'
 // import { SocialMediaLinks } from './SocialMediaLinks'
 
 export const Footer = () => (
-  <Box as="footer"  opacity={0.4}>
+  <Box as="footer" >
       <Center>
-
         <Logo />
         </Center>
-
   </Box>
 )
