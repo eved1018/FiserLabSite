@@ -32,7 +32,12 @@ const Publications = () =>{
                         loading="lazy"
                         align="center"
                     />}
+                      <Paragraph align="center">
+                        {paperList.authors}
+                    </Paragraph>
+                        
                 </Box>
+                     
 
                 <Divider orientation="horizontal" />
                 </Section>
