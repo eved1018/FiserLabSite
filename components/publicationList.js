@@ -5,6 +5,8 @@ const publicationList = [
         authors:"Steven Grudman, J Eduardo Fajardo, Andras Fiser",
         abstarct:" Summary: The Interface Contact definition with Adaptable Atom Types (INTERCAAT) was developed to determine the atomic interactions between molecules that form a known three dimensional structure. First, INTERCAAT creates a Voronoi tessellation where each atom acts as a seed. Interactions are defined by atoms that share a hyperplane and whose distance is less than the sum of each atoms' Van der Waals radii plus the diameter of a solvent molecule. Interacting atoms are then classified and interactions are filtered based on compatibility. INTERCAAT implements an adaptive atom classification method; therefore, it can explore interfaces between a variety macromolecules.",
         link: "https://pubmed.ncbi.nlm.nih.gov/34499117/",
+        thumbnail:"",
+        
     },
     {
         year: '2021',
