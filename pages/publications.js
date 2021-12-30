@@ -32,7 +32,7 @@ const Publications = () =>{
                         loading="lazy"
                         align="center"
                     />}
-                      <Paragraph align="center" fontSize={10}>
+                      <Paragraph align="center" fontSize={8}>
                         {paperList.authors}
                     </Paragraph>
                         
