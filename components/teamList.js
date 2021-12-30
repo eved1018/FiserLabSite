@@ -5,7 +5,7 @@ const teamList =[
 
         name:"Fajardo, Eduardo J, PhD ",
         position: "Associate Professor",
-        email:"eduardo at fiserlab.org",
+        email:"eduardo@fiserlab.org",
         thumbnail: "",
     },
     {
